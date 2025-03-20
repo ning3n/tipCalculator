@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container{
+    background-color: white;
+    width: 30%;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(63, 139, 53, 0.933);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    color: white;
+    transition: all ease .3s;
+}
+
+button:hover{
+    background-color: rgba(54, 105, 47, 0.933);
+}
